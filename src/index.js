@@ -1,5 +1,8 @@
 import './styles/normalize.css';
 import './styles/index.css';
 import { getProdukts } from './requests/products';
-
-getProdukts(), then(data => console.log(data));
+import { greateMarkUpProducts } from './services/markupService';
+import {
+  createMarkUpProducts,
+  createMarkUpProduct,
+} from './services/markupService';
